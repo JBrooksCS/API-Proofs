@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {DarkSky} from "./components/DarkSky"
+import {EventbriteInfo} from "./components/EventbriteInfo"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       API STUFF
       </h1>
         <DarkSky />
+        <EventbriteInfo />
     </div>
   );
 }

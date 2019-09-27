@@ -39,11 +39,11 @@ export class DarkSky extends Component {
             })
     }
     componentDidMount(){
-        this.weatherFetcher(36.1627, 86.7816);
+        this.weatherFetcher(36.1627, -86.7816);
     }
 
     render() {
-        console.log("w_obj = ", this.state.currently)
+        // console.log("w_obj = ", this.state.currently)
         return (
             <div>
                 <h3>WEATHER IN NASHVILLE</h3>
