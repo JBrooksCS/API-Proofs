@@ -1,8 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {DarkSky} from "./components/DarkSky"
 import {EventbriteInfo} from "./components/EventbriteInfo"
+import {GooglePlace} from "./components/GooglePlace"
+
+
 
 function App() {
   return (
